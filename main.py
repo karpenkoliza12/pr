@@ -14,7 +14,4 @@ print((2 * (2 + 2)) == (2 * 2 + 2))
 
 #4st program
 print('\n4 программа')
-s = '123.456'
-s = float(s) *10
-a = int(s) % 10
-print(a)
+print(int(float('123.456') *10) % 10)
