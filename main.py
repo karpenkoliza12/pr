@@ -1,16 +1,20 @@
-# This is a sample Python script.
+#1st program
+print('1 программа')
+print((9 ** 0.5) * 5)
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+#2st program
+print('\n2 программа')
+print((9.99 > 9.98) and (1000 != 1000.1))
 
+#3st program
+print('\n3 программа')
+print('2 * 2 + 2')
+print('2 * (2 + 2)')
+print((2 * (2 + 2)) == (2 * 2 + 2))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#4st program
+print('\n4 программа')
+s = '123.456'
+s = float(s) *10
+a = int(s) % 10
+print(a)
