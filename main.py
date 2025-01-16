@@ -15,3 +15,7 @@ print((2 * (2 + 2)) == (2 * 2 + 2))
 #4st program
 print('\n4 программа')
 print(int(float('123.456') * 10) % 10)
+import random
+
+random_number = random.randint(0, 9)
+print('random', random_number)
